@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_tall_divider"
+       >
+
+        <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="25sp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORRY"
+            android:textSize="25sp"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/button2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Fairly worried"-->
+            <!--android:textSize="25sp"-->
+            <!--android:paddingBottom="20dp"-->
+            <!--android:paddingTop="20dp"-->
+             <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/button3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Very worried"-->
+            <!--android:textSize="25sp"-->
+            <!--android:paddingBottom="20dp"-->
+            <!--android:paddingTop="20dp"-->
+            <!--/>-->
+
+        <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:textSize="25sp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        />
+
+
+    </LinearLayout>
+
+
+
+
